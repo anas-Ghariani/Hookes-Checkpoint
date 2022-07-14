@@ -36,7 +36,7 @@ function ModalI(props) {
         </Modal.Header>
         <Modal.Body>
           <Form>
-            <Form.Group className="mb-4" controlId="formBasicPassword">
+            <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Label>Movie Name</Form.Label>
               <Form.Control
                 type="text"
@@ -46,10 +46,10 @@ function ModalI(props) {
               />
             </Form.Group>
             <Form.Group
-              className="mb-4"
+              className="mb-3"
               controlId="formBasicCheckbox"
             ></Form.Group>
-            <Form.Group className="mb-4" controlId="formBasicPassword">
+            <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Label>Movie Rate</Form.Label>
               <Form.Control
                 type="Number"
@@ -61,10 +61,10 @@ function ModalI(props) {
               />
             </Form.Group>
             <Form.Group
-              className="mb-4"
+              className="mb-3"
               controlId="formBasicCheckbox"
             ></Form.Group>
-            <Form.Group className="mb-4" controlId="formBasicPassword">
+            <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Label>Movie Image</Form.Label>
               <Form.Control
                 type="text"
@@ -74,7 +74,7 @@ function ModalI(props) {
               />
             </Form.Group>
             <Form.Group
-              className="mb-4"
+              className="mb-3"
               controlId="formBasicCheckbox"
             ></Form.Group>
           </Form>
